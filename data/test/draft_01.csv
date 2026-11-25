@@ -1,0 +1,51 @@
+narration,direction,category,merchant,channel,upi_type,bank_format,unseen_merchant
+UPI-SWIGGY-swiggy.upi@axisbank-UTIB0000100-433812094512-PAYMENT FROM PHONE,debit,Food & dining,Swiggy,UPI,P2M,hdfc,0
+TO TRANSFER-UPI/DR/433901227815/ZOMATO LTD/YESB/zomato.payu@ybl/Payment f--,debit,Food & dining,Zomato,UPI,P2M,sbi,0
+UPI/434012558731/Box8 order/box8.rzp@icici/ICICI Bank,debit,Food & dining,Box8,UPI,P2M,icici,1
+UPI/P2M/434177120943/CHAAYOS/UPI/HDFC BANK,debit,Food & dining,Chaayos,UPI,P2M,axis,1
+POS 459150XXXXXX3307 THIRD WAVE COFFEE BANGALORE,debit,Food & dining,Third Wave Coffee,CARD,,hdfc,1
+UPI/BLINKIT/434290016624/Groceries,debit,Groceries,Blinkit,UPI,P2M,kotak,0
+UPI-BIGBASKET-bigbasket@hdfcbank-HDFC0000001-434388501277-UPI,debit,Groceries,BigBasket,UPI,P2M,hdfc,0
+UPI/434455019832/Licious/licious.rzp@hdfcbank/HDFC BANK,debit,Groceries,Licious,UPI,P2M,icici,1
+TO TRANSFER-UPI/DR/434512998104/AMAZON PAY IN E COMMERC/YESB/amazonupi@apl/You are pay--,debit,Shopping,Amazon,UPI,P2M,sbi,0
+ECOM PUR-421653XXXXXX2219-FLIPKART INTERNET PVT LTD,debit,Shopping,Flipkart,CARD,,axis,0
+POS 524409XXXXXX8812 LENSKART SOLUTIONS BLR,debit,Shopping,Lenskart,CARD,,hdfc,1
+UPI/UBER INDIA/434788120036/Ride,debit,Travel & transport,Uber,UPI,P2M,kotak,0
+UPI/434811873390/Yulu ride/yulu.payu@hdfcbank/HDFC BANK,debit,Travel & transport,Yulu,UPI,P2M,icici,1
+TO TRANSFER-UPI/DR/434902117745/IRCTC/SBIN/irctc.upi@sbi/Ticket--,debit,Travel & transport,IRCTC,UPI,P2M,sbi,0
+UPI-BESCOM-bescom.billdesk@hdfcbank-HDFC0000001-435011228741-ELEC BILL,debit,Bills & utilities,BESCOM,UPI,P2M,hdfc,0
+UPI/DR/435122004918/ACT FIBERNET/ICIC/actfibernet@icici/Broadba,debit,Bills & utilities,ACT Fibernet,UPI,P2M,canara,1
+UPI/P2M/435230018865/TATA PLAY LTD/DTH recharge/ICICI BANK,debit,Bills & utilities,Tata Play,UPI,P2M,axis,1
+ME DC SI 524409XXXXXX8812 NETFLIX COM,debit,Entertainment & subscriptions,Netflix,CARD,,hdfc,0
+UPI/BOOKMYSHOW/435344710028/Movie tickets,debit,Entertainment & subscriptions,BookMyShow,UPI,P2M,kotak,0
+UPI/435478801126/Medicines/apollopharmacy@axisbank/Axis Bank,debit,Health,Apollo Pharmacy,UPI,P2M,icici,1
+TO TRANSFER-UPI/DR/435560092231/TATA 1MG/HDFC/tata1mg.payu@hdfcbank/Order--,debit,Health,Tata 1mg,UPI,P2M,sbi,0
+NACH DR GROWW INVEST TECH PVT LTD 6012345678,debit,Investments,Groww,NACH,,canara,0
+UPI/P2M/435701192286/KUVERA/MF purchase/YES BANK,debit,Investments,Kuvera,UPI,P2M,axis,1
+ACH D- BAJAJ FINANCE LTD-CITI00000000412345,debit,Loan EMI,Bajaj Finance,NACH,,hdfc,0
+ACH/KREDITBEE/ICIC7021000000123456,debit,Loan EMI,KreditBee,NACH,,icici,1
+DEBIT-ACHDr UTIB7012345678 NAVI FINSERV LTD,debit,Loan EMI,Navi,NACH,,sbi,1
+UPI/CRED CLUB/435812290071/CC bill,debit,Credit card payment,CRED,UPI,P2M,kotak,0
+IB BILLPAY DR-HDFCC0-552260XXXXXX4419,debit,Credit card payment,,OTHER,,hdfc,0
+UPI/435933018842/Nov rent/nobroker.rent@icici/ICICI Bank,debit,Rent,NoBroker,UPI,P2M,icici,0
+TO TRANSFER-UPI/DR/436011873006/RAMESH K/CNRB/rameshk1967@okaxis/RENT NOV--,debit,Rent,,UPI,P2P,sbi,0
+NACH-DR- LIC OF INDIA-ECS LICPREM 5521,debit,Insurance,LIC,NACH,,axis,0
+UPI/DR/436122930187/ACKO GENERAL INS/ICIC/acko.rzp@icici/Policy,debit,Insurance,Acko,UPI,P2M,canara,1
+NWD-459150XXXXXX3307-S1ANBG12-BANGALORE,debit,Cash withdrawal,,ATM,,hdfc,0
+ATM WDL-ATM CASH 4821 KORAMANGALA BANGALORE,debit,Cash withdrawal,,ATM,,sbi,0
+CHRG:ECS RTN 06-11-2026,debit,Bank charges & penalties,,INTERNAL,,icici,0
+ACH RTN CHRGS 251126 BAJAJ FINANCE,debit,Bank charges & penalties,,INTERNAL,,hdfc,0
+SMS CHARGES FOR QTR ENDED SEP26,debit,Bank charges & penalties,,INTERNAL,,sbi,0
+GST @18% ON CHGS,debit,Bank charges & penalties,,INTERNAL,,axis,0
+NEFT CR-CITI0000002-ACME ANALYTICS PVT LTD-SALARY NOV 2026-CITIN26330198765,credit,Salary,Acme Analytics,NEFT,,hdfc,1
+BY TRANSFER-NEFT*HDFC0000001*N332260012345*SAL NOV26 BRIGHTWAVE TECH--,credit,Salary,Brightwave Tech,NEFT,,sbi,1
+IMPS/P2A/433001882210/NOVAMIND LABS/SALARY,credit,Salary,Novamind Labs,IMPS,,kotak,1
+UPI/436233018874/Refund/amazonupi@apl/Yes Bank,credit,Refund & cashback,Amazon,UPI,P2M,icici,0
+UPI/REV/436301118827/SWIGGY/Reversal/AXIS BANK,credit,Refund & cashback,Swiggy,UPI,P2M,axis,0
+CREDIT INTEREST,credit,Interest & dividend,,INTERNAL,,sbi,0
+INT.PD:50100123456789:01-08-2026 TO 31-10-2026,credit,Interest & dividend,,INTERNAL,,hdfc,0
+ACH C- INFOSYS LTD DIV FIN26-0001234,credit,Interest & dividend,Infosys,NACH,,canara,1
+UPI/PRIYA NAIR/436401289965/dinner split,credit,Transfer in,,UPI,P2P,kotak,0
+IMPS/P2A/436511020334/ARJUN MENON/HDFC Bank,credit,Transfer in,,IMPS,,icici,0
+UPI-SNEHA RAO-sneharao92@oksbi-SBIN0012345-436622018740-NA,debit,Transfer out,,UPI,P2P,hdfc,0
+TRF DR ADJ REF 88213,debit,Other,,OTHER,,canara,0
