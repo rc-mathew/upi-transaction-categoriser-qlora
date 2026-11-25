@@ -14,7 +14,7 @@ import sys
 import time
 
 from google import genai
-from google.genai import types
+from google.genai import errors, types
 
 sys.path.insert(0, "src")
 from categoriser.schema import Category, Channel  # noqa: E402
@@ -73,7 +73,16 @@ with open(args.out_csv, "a", newline="", encoding="utf-8") as f:
     for r in rows[done:]:
         q = f"{PROMPT}\nNarration: {r['narration']} | Direction: {r['direction']}\n"
         t0 = time.perf_counter()
-        resp = client.models.generate_content(model=args.model, contents=q, config=config)
+        for attempt in range(6):  # free tier returns 429/503 under load; back off and retry
+            try:
+                resp = client.models.generate_content(model=args.model, contents=q, config=config)
+                break
+            except errors.APIError as e:
+                if e.code not in (429, 500, 503) or attempt == 5:
+                    raise
+                print(f"  {e.code}, retrying in {10 * 2**attempt}s")
+                time.sleep(10 * 2**attempt)
+                t0 = time.perf_counter()  # latency excludes waiting
         ms = (time.perf_counter() - t0) * 1000
         u = resp.usage_metadata
         w.writerow([r["narration"], (resp.text or "").strip(), round(ms), u.prompt_token_count, u.candidates_token_count])
