@@ -59,6 +59,7 @@ ap.add_argument("--model", default="gemini-2.5-flash")  # check the current free
 ap.add_argument("--sleep", type=float, default=6.0, help="seconds between calls; free tier is rate-limited")
 args = ap.parse_args()
 
+os.makedirs(os.path.dirname(args.out_csv) or ".", exist_ok=True)
 rows = list(csv.DictReader(open(args.test_csv, encoding="utf-8")))
 done = sum(1 for _ in open(args.out_csv, encoding="utf-8")) - 1 if os.path.exists(args.out_csv) else 0
 client = genai.Client()  # reads GEMINI_API_KEY
