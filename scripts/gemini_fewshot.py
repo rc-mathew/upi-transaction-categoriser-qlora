@@ -4,7 +4,7 @@ No response_schema is passed on purpose: the fine-tuned model gets no constraine
 decoding either, so JSON validity is compared like for like.
 
 Usage (repo root, GEMINI_API_KEY set):
-    python scripts/gemini_fewshot.py data/test/test.csv runs/gemini.csv --model gemini-2.5-flash
+    python scripts/gemini_fewshot.py data/test/test.csv runs/gemini.csv --model gemini-3.8-flash
 Re-running the same command resumes after the last written row.
 """
 import argparse
@@ -55,21 +55,21 @@ Examples:
 ap = argparse.ArgumentParser()
 ap.add_argument("test_csv")
 ap.add_argument("out_csv")
-ap.add_argument("--model", default="gemini-2.5-flash")  # check the current free-tier model name
+ap.add_argument("--model", default="gemini-3.8-flash")  # the API names its replacement when a model is retired
 ap.add_argument("--sleep", type=float, default=6.0, help="seconds between calls; free tier is rate-limited")
 args = ap.parse_args()
 
 os.makedirs(os.path.dirname(args.out_csv) or ".", exist_ok=True)
 rows = list(csv.DictReader(open(args.test_csv, encoding="utf-8")))
-done = sum(1 for _ in open(args.out_csv, encoding="utf-8")) - 1 if os.path.exists(args.out_csv) else 0
+new_file = not os.path.exists(args.out_csv) or os.path.getsize(args.out_csv) == 0
+done = 0 if new_file else sum(1 for _ in open(args.out_csv, encoding="utf-8")) - 1  # minus header
 client = genai.Client()  # reads GEMINI_API_KEY
 config = types.GenerateContentConfig(temperature=0, response_mime_type="application/json")
 
 with open(args.out_csv, "a", newline="", encoding="utf-8") as f:
     w = csv.writer(f)
-    if done <= 0:
+    if new_file:
         w.writerow(["narration", "output", "latency_ms", "input_tokens", "output_tokens"])
-        done = 0
     for r in rows[done:]:
         q = f"{PROMPT}\nNarration: {r['narration']} | Direction: {r['direction']}\n"
         t0 = time.perf_counter()
