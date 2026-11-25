@@ -45,7 +45,7 @@ def bootstrap_ci(gold, pred, n=1000, seed=0):
 
 
 def score(gold_rows, outputs):
-    assert len(gold_rows) == len(outputs), "predictions must line up with the test set"
+    assert len(gold_rows) == len(outputs), f"{len(outputs)} predictions for {len(gold_rows)} test rows: finish (re-run) the prediction script first"
     parsed = [parse(o) for o in outputs]
     gold = [r["category"] for r in gold_rows]
     pred = [p.category.value if p else INVALID for p in parsed]
