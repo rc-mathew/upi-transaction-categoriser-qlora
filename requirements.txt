@@ -1,0 +1,6 @@
+pydantic>=2.7
+pandas>=2.2
+scikit-learn>=1.5
+faker>=26.0
+google-genai>=1.0
+mlflow>=2.14
