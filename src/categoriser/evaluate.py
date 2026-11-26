@@ -9,6 +9,7 @@ Usage (repo root):
 """
 import csv
 import json
+import re
 import sys
 
 import numpy as np
@@ -29,6 +30,13 @@ def parse(output: str):
 
 def norm(merchant):
     return (merchant or "").strip().lower()
+
+
+def loose(a, b):
+    """Lenient merchant match: same name once case and punctuation are ignored, or one name
+    contains the other ("Spencer's" vs "Spencers Retail"). Both empty also counts."""
+    a, b = (re.sub(r"[^a-z0-9 ]", "", (x or "").lower()).strip() for x in (a, b))
+    return a == b or (bool(a) and bool(b) and (a in b or b in a))
 
 
 def macro_f1(gold, pred):
@@ -58,6 +66,7 @@ def score(gold_rows, outputs):
         "macro_f1": macro_f1(gold, pred),
         "macro_f1_ci95": [lo, hi],
         "merchant_exact_match": float(np.mean(merch_ok)),
+        "merchant_lenient_match": float(np.mean([p is not None and loose(p.merchant, r["merchant"]) for p, r in zip(parsed, gold_rows)])),
         "json_validity": sum(p is not None for p in parsed) / len(parsed),
     }
     if unseen:
