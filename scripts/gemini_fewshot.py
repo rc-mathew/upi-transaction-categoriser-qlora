@@ -65,7 +65,7 @@ args = ap.parse_args()
 os.makedirs(os.path.dirname(args.out_csv) or ".", exist_ok=True)
 rows = list(csv.DictReader(open(args.test_csv, encoding="utf-8")))
 new_file = not os.path.exists(args.out_csv) or os.path.getsize(args.out_csv) == 0
-done = 0 if new_file else sum(1 for _ in open(args.out_csv, encoding="utf-8")) - 1  # minus header
+done = 0 if new_file else len(list(csv.DictReader(open(args.out_csv, encoding="utf-8"))))  # records, not lines: outputs can span lines
 client = genai.Client()  # reads GEMINI_API_KEY
 config = types.GenerateContentConfig(temperature=0, response_mime_type="application/json")
 
