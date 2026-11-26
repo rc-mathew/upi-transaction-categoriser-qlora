@@ -48,4 +48,7 @@ ACH C- INFOSYS LTD DIV FIN26-0001234,credit,Interest & dividend,Infosys,NACH,,ca
 UPI/PRIYA NAIR/436401289965/dinner split,credit,Transfer in,,UPI,P2P,kotak,0
 IMPS/P2A/436511020334/ARJUN MENON/HDFC Bank,credit,Transfer in,,IMPS,,icici,0
 UPI-SNEHA RAO-sneharao92@oksbi-SBIN0012345-436622018740-NA,debit,Transfer out,,UPI,P2P,hdfc,0
+UPIOUT/618204417735/q512093847@ybl/Paid via /5814,debit,Food & dining,,UPI,P2M,federal,0
+UPIOUT/618390022417/mybmtcdqr@ybl/Payment fo/4131,debit,Travel & transport,BMTC,UPI,P2M,federal,1
+TO ATM/5512/FBL-INDIRANAGAR\MAIN ROAD,debit,Cash withdrawal,,ATM,,federal,0
 TRF DR ADJ REF 88213,debit,Other,,OTHER,,canara,0
