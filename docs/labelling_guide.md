@@ -109,3 +109,9 @@ only at the layout and copy no real values) before relying on it.
    the slice where a fine-tuned LLM should beat TF-IDF.
 3. At least 10 rows per category, and spread the rows across at least 6 bank formats.
 4. No real personal data: invent names, VPAs and reference numbers.
+
+## Where the test rows come from
+
+Rows with `bank_format = federal` are copied from a real statement, with personal values replaced.
+Every other bank format was drafted by hand (with AI help) in that bank's approximate layout.
+Report `real_layout_macro_f1` next to the overall score: it is the honest number.

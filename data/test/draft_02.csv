@@ -1,0 +1,104 @@
+narration,direction,category,merchant,channel,upi_type,bank_format,unseen_merchant
+TO TRANSFER-UPI/DR/649095908814/NETFLIX ENTERTAINMENT/HDFC/netflix.payu@hdfcbank/Monthly--,debit,Entertainment & subscriptions,Netflix,UPI,P2M,sbi,0
+ME DC SI 416601XXXXXX0668 SPOTIFY INDIA,debit,Entertainment & subscriptions,Spotify,CARD,,hdfc,0
+UPI-JIOHOTSTAR-jiohotstar@axisbank-UTIB0000000-486397300301-SUBSCRIPTION,debit,Entertainment & subscriptions,JioHotstar,UPI,P2M,hdfc,0
+UPI/P2M/833195324450/PVR INOX LTD/Movie/AXIS BANK,debit,Entertainment & subscriptions,PVR INOX,UPI,P2M,axis,1
+PCD/437597XXXXXX6370/SONY PLAYSTATION NETWORK/MUMBAI,debit,Entertainment & subscriptions,PlayStation,CARD,,kotak,1
+UPI/532224122401/YouTube Premium/googleplay@axisbank/Axis Bank,debit,Entertainment & subscriptions,Google Play,UPI,P2M,icici,0
+UPI/DR/397293224635/DISTRICT BY ZOMATO/YESB/district.payu@ybl/Event,debit,Entertainment & subscriptions,District,UPI,P2M,canara,1
+UPI/AMAZON PRIME/367137969713/Prime membership,debit,Entertainment & subscriptions,Amazon,UPI,P2M,kotak,0
+UPI/P2M/113047979299/PHARMEASY/Medicine/YES BANK,debit,Health,PharmEasy,UPI,P2M,axis,0
+POS 459115XXXXXX5832 MEDPLUS HEALTH SERVICES BLR,debit,Health,MedPlus,CARD,,hdfc,1
+TO TRANSFER-UPI/DR/406532882167/APOLLO HOSPITALS ENT/ICIC/apollohospitals@icici/OPD--,debit,Health,Apollo Hospitals,UPI,P2M,sbi,1
+UPI/689365203381/Lab tests/healthians.rzp@icici/ICICI Bank,debit,Health,Healthians,UPI,P2M,icici,1
+UPI-PRACTO TECHNOLOGIES-practo@hdfcbank-HDFC0000001-352015668467-CONSULT,debit,Health,Practo,UPI,P2M,hdfc,0
+UPI/NETMEDS/036144288561/order,debit,Health,Netmeds,UPI,P2M,kotak,0
+UPI/DR/012052622057/SUNIL DENTAL CLINIC/CNRB/sunildental@okaxis/Treatment,debit,Health,Sunil Dental Clinic,UPI,P2M,canara,1
+POS 437577XXXXXX0122 MANIPAL HOSPITALS OLD AIRPORT RD,debit,Health,Manipal Hospitals,CARD,,axis,1
+ACH D- BSE LTD-SIP84182027,debit,Investments,BSE,NACH,,hdfc,1
+NACH DR ZERODHA BROKING LTD 3518275515,debit,Investments,Zerodha,NACH,,canara,0
+UPI/P2M/641768771614/GROWW/Mutual fund/YES BANK,debit,Investments,Groww,UPI,P2M,axis,0
+UPI/607856890764/SIP/indmoney@icici/ICICI Bank,debit,Investments,INDmoney,UPI,P2M,icici,1
+TO TRANSFER-INB PPF DEPOSIT--,debit,Investments,,INTERNAL,,sbi,0
+UPI/UPSTOX/372198358352/Add funds,debit,Investments,Upstox,UPI,P2M,kotak,1
+ACH D- HDFC MUTUAL FUND-HDFC7734779322,debit,Investments,HDFC Mutual Fund,NACH,,hdfc,1
+TO TRANSFER-UPI/DR/824746287256/PROTEAN EGOV NPS/HDFC/nps.protean@hdfcbank/NPS Tier--,debit,Investments,NPS,UPI,P2M,sbi,1
+NACH RTN CHARGES-TATA CAPITAL,debit,Bank charges & penalties,Tata Capital,INTERNAL,,icici,0
+CHRG: ACH DEBIT RETURN KREDITBEE,debit,Bank charges & penalties,KreditBee,INTERNAL,,axis,1
+INWARD ECS RETURN CHARGES,debit,Bank charges & penalties,,INTERNAL,,canara,0
+MANDATE RTN CHG GST INCL,debit,Bank charges & penalties,,INTERNAL,,kotak,0
+ECS/ACH RETURN CHARGES-BAJAJ FIN,debit,Bank charges & penalties,Bajaj Finance,INTERNAL,,hdfc,0
+ACH RTN CHGS NAVI FINSERV,debit,Bank charges & penalties,Navi,INTERNAL,,sbi,1
+ECS RETURN CHG-LIC OF INDIA,debit,Bank charges & penalties,LIC,INTERNAL,,canara,0
+ANNUAL DEBIT CARD FEE INCL GST,debit,Bank charges & penalties,,INTERNAL,,sbi,0
+MIN BAL CHARGES OCT26,debit,Bank charges & penalties,,INTERNAL,,icici,0
+CASH DEP SELF 5532,credit,Other,,OTHER,,sbi,0
+REV-ADJ 63903 DISPUTE,debit,Other,,OTHER,,axis,0
+CHQ DEP CLG 081867,credit,Other,,CHEQUE,,canara,0
+MISC CR 78812119,credit,Other,,OTHER,,kotak,0
+NEFT CR-ICIC0000104-ZYLOTECH SOLUTIONS PRIVATE LIMITED-NOV 2026 SALARY-ICICN5859774906,credit,Salary,Zylotech Solutions,NEFT,,hdfc,1
+BY TRANSFER-NEFT*UTIB0000553*AXN4698239202*SALARY OCT 2026 PERIDOT--,credit,Salary,Peridot,NEFT,,sbi,1
+NEFT/CITIN2603292910/SAL NOV26/KESTREL DATA LABS,credit,Salary,Kestrel Data Labs,NEFT,,icici,1
+NEFT-HSBCN2665949989-LUMEN CORP-SALARY,credit,Salary,Lumen Corp,NEFT,,axis,1
+IMPS/P2A/602557975670/QUILL ANALYTICS/SAL,credit,Salary,Quill Analytics,IMPS,,kotak,1
+NEFT CR-YESB0000001-STIPEND NOV-HELIX LABS,credit,Salary,Helix Labs,NEFT,,hdfc,1
+RTGS CR-KKBK0000958-TALLOW ENGINEERING LTD-SALARY,credit,Salary,Tallow Engineering,RTGS,,canara,1
+UPI/285907031302/Refund/flipkart.rzp@axisbank/Axis Bank,credit,Refund & cashback,Flipkart,UPI,P2M,icici,0
+UPI/CR/900666566472/PHONEPE CASHBACK/YESB/cashback@ybl/Reward,credit,Refund & cashback,PhonePe,UPI,P2M,canara,0
+REV-UPI-730099856899-ZOMATO,credit,Refund & cashback,Zomato,UPI,P2M,hdfc,0
+ECOM REF-459129XXXXXX5499-MYNTRA DESIGNS,credit,Refund & cashback,Myntra,CARD,,axis,0
+UPI/MAKEMYTRIP/148015824972/Refund cancellation,credit,Refund & cashback,MakeMyTrip,UPI,P2M,kotak,0
+BY TRANSFER-NEFT*SBIN0000691*IRCTC TKT REFUND--,credit,Refund & cashback,IRCTC,NEFT,,sbi,0
+UPI/051711172697/Cashback/cred.club@axisbank/Axis Bank,credit,Refund & cashback,CRED,UPI,P2M,icici,0
+SB INT CR 30-09-2026,credit,Interest & dividend,,INTERNAL,,kotak,0
+INTEREST CREDIT FD 806720,credit,Interest & dividend,,INTERNAL,,canara,0
+ACH C- TATA CONSULTANCY SERV DIV-44657511,credit,Interest & dividend,TCS,NACH,,hdfc,1
+NACH CR ITC LIMITED DIVIDEND FY26,credit,Interest & dividend,ITC,NACH,,icici,1
+CREDIT INTEREST CAPITALISED,credit,Interest & dividend,,INTERNAL,,sbi,0
+ACH/HDFC BANK LTD-DIV/9051682955,credit,Interest & dividend,HDFC Bank,NACH,,axis,1
+RD INT CR 873037,credit,Interest & dividend,,INTERNAL,,icici,0
+UPI/CR/032615457107/ROHIT S/HDFC/rohits.99@okhdfcbank/trip money,credit,Transfer in,,UPI,P2P,canara,0
+IMPS/P2A/151050013281/KAVYA R/Axis Bank,credit,Transfer in,,IMPS,,kotak,0
+NEFT CR-SBIN0004415-ANITA GEORGE-FAMILY,credit,Transfer in,,NEFT,,hdfc,0
+BY TRANSFER-UPI/CR/026660199711/DEEPAK J/UTIB/deepakj@okaxis/UPI--,credit,Transfer in,,UPI,P2P,sbi,0
+UPI-NIKHIL PATIL-nikhilp@ybl-YESB0YBLUPI-559290636090-PAYMENT,credit,Transfer in,,UPI,P2P,hdfc,0
+UPI/499122044075/Self transfer/myacct@okicici/ICICI Bank,credit,Transfer in,,UPI,P2P,icici,0
+ACH D- HDFC BANK LTD-LOAN61584356,debit,Loan EMI,HDFC Bank,NACH,,hdfc,0
+NACH DR TATA CAPITAL LTD 5963243393,debit,Loan EMI,Tata Capital,NACH,,canara,0
+EMI 12/24 LOAN A/C XXXX0596,debit,Loan EMI,,INTERNAL,,sbi,0
+ACH/MONEYVIEW/7056242817,debit,Loan EMI,Moneyview,NACH,,icici,1
+NACH-DR- IDFC FIRST BANK LTD-LOANEMI,debit,Loan EMI,IDFC First Bank,NACH,,axis,1
+UPI/BAJAJ FINANCE LTD/913111936531/EMI,debit,Loan EMI,Bajaj Finance,UPI,P2M,kotak,0
+TO TRANSFER-UPI/DR/685990303917/LAZYPAY/ICIC/lazypay.payu@icici/EMI repay--,debit,Loan EMI,LazyPay,UPI,P2M,sbi,1
+UPI/744353140701/CC payment/cred.club@axisbank/Axis Bank,debit,Credit card payment,CRED,UPI,P2M,icici,0
+BBPS-HDFC CREDIT CARD-5134557823,debit,Credit card payment,,OTHER,,axis,0
+NEFT DR-ICIC0000103-ICICI CREDIT CARD 416651XXXXXX9931,debit,Credit card payment,,NEFT,,hdfc,0
+CC PAYMENT 437516XXXXXX6936,debit,Credit card payment,,INTERNAL,,sbi,0
+UPI/P2M/437673879900/AXIS BANK CREDIT CARDS/Bill/AXIS BANK,debit,Credit card payment,,UPI,P2M,axis,0
+UPI/CRED/671741293100/Card bill,debit,Credit card payment,CRED,UPI,P2M,kotak,0
+UPI-ONECARD-onecard.billdesk@hdfcbank-HDFC0000001-175325892186-BILL,debit,Credit card payment,OneCard,UPI,P2M,hdfc,1
+TO TRANSFER-UPI/DR/272875921803/SBI CARDS/SBIN/sbicard.billpay@sbi/Payment--,debit,Credit card payment,SBI Card,UPI,P2M,sbi,1
+UPI/576726505834/Rent Dec/nobroker.rent@icici/ICICI Bank,debit,Rent,NoBroker,UPI,P2M,icici,0
+UPI/CRED RENT/090646676972/Rent,debit,Rent,CRED,UPI,P2M,kotak,0
+NEFT DR-SBIN0001234-PRAKASH HEGDE-HOUSE RENT,debit,Rent,,NEFT,,hdfc,0
+TO TRANSFER-UPI/DR/336564514835/LATHA M/UBIN/latham@okaxis/rent--,debit,Rent,,UPI,P2P,sbi,0
+IMPS/P2A/751898976836/GOPAL RAO/Canara Bank/Rent Nov,debit,Rent,,IMPS,,icici,0
+UPI/DR/012248424944/HOUSING.COM RENT/YESB/housing.rent@ybl/Rent,debit,Rent,Housing.com,UPI,P2M,canara,1
+UPI/P2M/693844065984/STANZA LIVING/Rent/HDFC BANK,debit,Rent,Stanza Living,UPI,P2M,axis,1
+UPI-ZOLO STAYS-zolo.rzp@icici-ICIC0DC0099-345507263880-PG RENT,debit,Rent,Zolo,UPI,P2M,hdfc,1
+ACH D- HDFC ERGO GEN INS-91944864,debit,Insurance,HDFC Ergo,NACH,,hdfc,1
+UPI/P2M/944272313588/POLICYBAZAAR/Premium/YES BANK,debit,Insurance,Policybazaar,UPI,P2M,axis,0
+NACH DR STAR HEALTH AND ALLIED INS 4035641939,debit,Insurance,Star Health,NACH,,canara,1
+UPI/042983062414/Premium/digit.insurance@icici/ICICI Bank,debit,Insurance,Digit,UPI,P2M,icici,1
+ECS DR LIC OF INDIA-991654012,debit,Insurance,LIC,NACH,,sbi,0
+UPI/ACKO/711912231339/Car insurance,debit,Insurance,Acko,UPI,P2M,kotak,1
+ME DC SI 652248XXXXXX5748 ICICI PRU LIFE,debit,Insurance,ICICI Prudential,CARD,,hdfc,1
+TO TRANSFER-UPI/DR/794705985560/TATA AIG GENERAL/HDFC/tataaig@hdfcbank/Motor--,debit,Insurance,Tata AIG,UPI,P2M,sbi,1
+UPI/P2M/644723645355/ZEPTO MARKETPLACE/Order/YES BANK,debit,Groceries,Zepto,UPI,P2M,axis,0
+POS 416612XXXXXX6657 DMART AVENUE SUPERMARTS BLR,debit,Groceries,DMart,CARD,,hdfc,0
+UPI/023810164638/Instamart/swiggy.instamart@icici/ICICI Bank,debit,Groceries,Instamart,UPI,P2M,icici,0
+UPI/COUNTRY DELIGHT/797190576296/Milk,debit,Groceries,Country Delight,UPI,P2M,kotak,1
+UPI/DR/564279432142/SRI LAKSHMI PROVISION STORES/CNRB/slprovision@okaxis/Groceries,debit,Groceries,Sri Lakshmi Provision Stores,UPI,P2M,canara,1
+UPI/P2M/053096284523/AJIO RELIANCE RETAIL/Order/HDFC BANK,debit,Shopping,Ajio,UPI,P2M,axis,0
+PCD/652259XXXXXX2611/DECATHLON SPORTS/BANGALORE,debit,Shopping,Decathlon,CARD,,kotak,1
+UPI/482655466992/Order/nykaa.rzp@icici/ICICI Bank,debit,Shopping,Nykaa,UPI,P2M,icici,0

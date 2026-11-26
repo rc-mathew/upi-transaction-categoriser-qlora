@@ -63,6 +63,12 @@ def score(gold_rows, outputs):
     if unseen:
         result["unseen_macro_f1"] = macro_f1([gold[i] for i in unseen], [pred[i] for i in unseen])
         result["unseen_merchant_exact_match"] = float(np.mean([merch_ok[i] for i in unseen]))
+    # federal rows are copied from a real statement; every other format was drafted.
+    # This slice is the honest score; report it next to the overall one.
+    real = [i for i, r in enumerate(gold_rows) if r.get("bank_format") == "federal"]
+    if real:
+        result["real_layout_n"] = len(real)
+        result["real_layout_macro_f1"] = macro_f1([gold[i] for i in real], [pred[i] for i in real])
     return result
 
 
