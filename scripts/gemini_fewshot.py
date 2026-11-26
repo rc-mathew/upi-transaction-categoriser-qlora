@@ -46,6 +46,7 @@ category: one of {[c.value for c in Category]}
 channel: one of {[c.value for c in Channel]}
 merchant: canonical brand as people say it, without legal suffixes (Ltd, Pvt, Finserv, Of India); keep acronyms upper case, otherwise Title Case. Null for individuals, cash and bank entries. Never output a person's name.
 Raw meat, fish and dairy delivery (e.g. Licious) is Groceries, not Food & dining.
+Bounce (ECS/NACH/ACH return) charges are Bank charges & penalties; merchant is the lender if the narration names one.
 upi_type: "P2M" for a business payee, "P2P" for a person, null when channel is not UPI.
 Rules: an explicit word (RENT, EMI, SALARY, REFUND) beats the merchant; a person's name means Transfer in/out; otherwise "Other".
 

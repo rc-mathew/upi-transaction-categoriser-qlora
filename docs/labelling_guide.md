@@ -43,11 +43,14 @@ transaction history, in the Risk Agent's Credit sub-agent.
 
 Bounce charges sit inside "Bank charges & penalties" but are the single most useful risk
 signal for a lender, so the test set must include at least 10 of them.
+When the narration names the lender whose mandate bounced, the merchant is that lender
+("ACH RTN CHRGS ... BAJAJ FINANCE" → "Bajaj Finance"), so the Risk Agent can tell which loan bounced.
 
 ## Field rules
 
 - **merchant:** the canonical brand as people say it, dropping legal suffixes (Ltd, Pvt, Finserv, Of India): "NAVI FINSERV LTD" → "Navi", "LIC OF INDIA" → "LIC". Keep acronyms upper case. Title Case otherwise: "SWIGGY BANGALORE" → "Swiggy",
   "AMAZON PAY IN E COMMERC" → "Amazon". Null for individuals, ATM, interest and charges.
+  Bounce charges are the exception: merchant is the lender if named.
   Never copy a person's name into the output.
 - **channel:** from the rail, not the merchant. NACH covers ACH and ECS mandates; CARD
   covers POS and card-not-present.
