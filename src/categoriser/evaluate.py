@@ -83,3 +83,9 @@ if __name__ == "__main__":
     gold_rows = list(csv.DictReader(open(gold_path, encoding="utf-8")))
     outputs = [r["output"] for r in csv.DictReader(open(pred_path, encoding="utf-8"))]
     print(json.dumps(score(gold_rows, outputs), indent=2))
+    # error list: read these before trusting the score; some "errors" will be label mistakes
+    for r, o in zip(gold_rows, outputs):
+        p = parse(o)
+        got = (p.category.value, p.merchant) if p else ("INVALID", o[:60])
+        if not p or got[0] != r["category"] or norm(got[1]) != norm(r["merchant"]):
+            print(f"- {r['narration'][:70]}\n    gold: {r['category']} / {r['merchant'] or None}   got: {got[0]} / {got[1]}", file=sys.stderr)
