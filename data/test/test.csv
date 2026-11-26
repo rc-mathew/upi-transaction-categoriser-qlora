@@ -140,7 +140,7 @@ INTEREST CREDIT FD 806720,credit,Interest & dividend,,INTERNAL,,canara,0
 ACH C- TATA CONSULTANCY SERV DIV-44657511,credit,Interest & dividend,TCS,NACH,,hdfc,1
 NACH CR ITC LIMITED DIVIDEND FY26,credit,Interest & dividend,ITC,NACH,,icici,1
 CREDIT INTEREST CAPITALISED,credit,Interest & dividend,,INTERNAL,,sbi,0
-ACH/HDFC BANK LTD-DIV/9051682955,credit,Interest & dividend,HDFC Bank,NACH,,axis,1
+ACH/HDFC BANK LTD-DIV/9051682955,credit,Interest & dividend,HDFC Bank,NACH,,axis,0
 RD INT CR 873037,credit,Interest & dividend,,INTERNAL,,icici,0
 UPI/CR/032615457107/ROHIT S/HDFC/rohits.99@okhdfcbank/trip money,credit,Transfer in,,UPI,P2P,canara,0
 IMPS/P2A/151050013281/KAVYA R/Axis Bank,credit,Transfer in,,IMPS,,kotak,0
@@ -187,3 +187,32 @@ UPI/DR/564279432142/SRI LAKSHMI PROVISION STORES/CNRB/slprovision@okaxis/Groceri
 UPI/P2M/053096284523/AJIO RELIANCE RETAIL/Order/HDFC BANK,debit,Shopping,Ajio,UPI,P2M,axis,0
 PCD/652259XXXXXX2611/DECATHLON SPORTS/BANGALORE,debit,Shopping,Decathlon,CARD,,kotak,1
 UPI/482655466992/Order/nykaa.rzp@icici/ICICI Bank,debit,Shopping,Nykaa,UPI,P2M,icici,0
+NEFT/SBIN6531741842/SPLIT BILL/ANJALI NAIR,credit,Transfer in,,NEFT,,icici,0
+UPI/P2M/388000333736/JIOMART/Order/YES BANK,debit,Groceries,JioMart,UPI,P2M,axis,0
+POS 437577XXXXXX7930 SPENCERS RETAIL BLR,debit,Groceries,Spencer's,CARD,,hdfc,1
+UPI/188248260541/Order/meesho.rzp@icici/ICICI Bank,debit,Shopping,Meesho,UPI,P2M,icici,0
+ECOM PUR-524425XXXXXX3484-CROMA INFINITI RETAIL,debit,Shopping,Croma,CARD,,axis,0
+UPI/IKEA INDIA/023132302041/Furniture,debit,Shopping,IKEA,UPI,P2M,kotak,1
+UPI-RAPIDO-rapido.rzp@icici-ICIC0DC0099-557610132383-RIDE,debit,Travel & transport,Rapido,UPI,P2M,hdfc,0
+POS 459144XXXXXX5738 INDIAN OIL PETROL PUMP KORAMANGALA,debit,Travel & transport,Indian Oil,CARD,,axis,1
+UPI/371695042988/Recharge/jio@axisbank/Axis Bank,debit,Bills & utilities,Jio,UPI,P2M,icici,0
+TO TRANSFER-UPI/DR/149031606431/BESCOM BILLDESK/HDFC/bescom@hdfcbank/Electricity--,debit,Bills & utilities,BESCOM,UPI,P2M,sbi,0
+UPI/P2M/553434567921/BHARAT GAS/LPG booking/HDFC BANK,debit,Bills & utilities,Bharat Gas,UPI,P2M,axis,1
+UPI/HATHWAY/481139791421/Broadband,debit,Bills & utilities,Hathway,UPI,P2M,kotak,1
+UPI/DR/045739294240/BWSSB/SBIN/bwssb.billdesk@sbi/Water,debit,Bills & utilities,BWSSB,UPI,P2M,canara,1
+ME DC SI 437524XXXXXX9412 VI PREPAID,debit,Bills & utilities,Vi,CARD,,hdfc,0
+ATW-416625XXXXXX7406-S1BW5807-BANGALORE,debit,Cash withdrawal,,ATM,,canara,0
+ATM/CASH WDL/S1CN8601/BANGALORE,debit,Cash withdrawal,,ATM,,icici,0
+ATM-WDL/063308/WHITEFIELD,debit,Cash withdrawal,,ATM,,axis,0
+CASH WDL 119130 HSR LAYOUT,debit,Cash withdrawal,,ATM,,kotak,0
+NWD-524489XXXXXX4878-SPCNH9462-MYSORE,debit,Cash withdrawal,,ATM,,hdfc,0
+ATM WDL-ATM CASH 0889 MARATHAHALLI BANGALORE,debit,Cash withdrawal,,ATM,,sbi,0
+UPI/051640631420/Payment/vinay.s@okaxis/Axis Bank,debit,Transfer out,,UPI,P2P,icici,0
+IMPS/P2A/409071224868/MEERA PILLAI/SBI/trip share,debit,Transfer out,,IMPS,,icici,0
+NEFT DR-UTIB0001567-KARTHIK R-SELF,debit,Transfer out,,NEFT,,hdfc,0
+TO TRANSFER-UPI/DR/337788869422/ASHOK KUMAR/KKBK/ashokk@okhdfcbank/UPI--,debit,Transfer out,,UPI,P2P,sbi,0
+UPI/P2A/901477637024/FATHIMA S/Gift/AXIS BANK,debit,Transfer out,,UPI,P2P,axis,0
+UPI/ARJUN DAS/587873572687/dinner,debit,Transfer out,,UPI,P2P,kotak,0
+UPI/DR/861163061136/SANTHOSH M/CNRB/santhoshm@ybl/NA,debit,Transfer out,,UPI,P2P,canara,0
+CHQ PAID-765377-MICR CLG,debit,Other,,CHEQUE,,hdfc,0
+SI ADJ DR 156473,debit,Other,,OTHER,,icici,0
