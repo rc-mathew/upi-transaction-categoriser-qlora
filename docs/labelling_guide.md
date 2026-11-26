@@ -76,7 +76,10 @@ Seen on a real Federal Bank statement: many UPI lines carry only a payment-app Q
 - Category comes from the MCC. Common codes: 5812 restaurants and 5814 fast food (Food & dining),
   5411 grocery (Groceries), 4111/4131 local transport and 4112 rail (Travel & transport),
   4722 travel agencies (Travel & transport), 4814 telecom (Bills & utilities),
-  5912 pharmacies (Health), 5399 general merchandise (Shopping), 0000 a person (Transfer in/out).
+  5912 pharmacies (Health), 5399 general merchandise (Shopping), 5462 bakeries (Food & dining),
+  7922 cinema and events (Entertainment & subscriptions), 7210 laundry and 7230 salons (Other),
+  0000 a person (Transfer in/out). A named merchant beats the MCC: `bookmyshow...@hdfc/4722` is still BookMyShow.
+- Foreign-currency (DCC) markups on card spends are Bank charges & penalties.
 - A handle that names the merchant still counts as named: `mybmtcdqr@ybl` is "BMTC",
   `airtelprepaidKerala@mair` is "Airtel".
 
