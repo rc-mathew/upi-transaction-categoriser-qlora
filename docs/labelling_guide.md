@@ -29,7 +29,7 @@ transaction history, in the Risk Agent's Credit sub-agent.
 | Rent | debit | Rent via NoBroker/CRED rent/Housing, or narration says "RENT" | P2P to a person with no rent marker → Transfer out |
 | Insurance | debit | LIC, health/motor/term premiums | |
 | Food & dining | debit | Swiggy, Zomato, restaurants, cafes | Instamart, Blinkit, Zepto → Groceries |
-| Groceries | debit | BigBasket, Blinkit, Zepto, Instamart, DMart, kirana P2M | |
+| Groceries | debit | BigBasket, Blinkit, Zepto, Instamart, DMart, kirana P2M, raw meat/fish/dairy delivery (Licious, Country Delight) | Ready-to-eat orders → Food & dining |
 | Shopping | debit | Amazon, Flipkart, Myntra, Ajio, Nykaa, electronics, retail | Amazon Pay bill payments → Bills & utilities |
 | Travel & transport | debit | Uber, Ola, Rapido, IRCTC, airlines, metro, FASTag, fuel | |
 | Bills & utilities | debit | Electricity (BESCOM etc.), gas, water, broadband, mobile recharge, DTH | |
@@ -46,7 +46,7 @@ signal for a lender, so the test set must include at least 10 of them.
 
 ## Field rules
 
-- **merchant:** the canonical brand, Title Case: "SWIGGY BANGALORE" → "Swiggy",
+- **merchant:** the canonical brand as people say it, dropping legal suffixes (Ltd, Pvt, Finserv, Of India): "NAVI FINSERV LTD" → "Navi", "LIC OF INDIA" → "LIC". Keep acronyms upper case. Title Case otherwise: "SWIGGY BANGALORE" → "Swiggy",
   "AMAZON PAY IN E COMMERC" → "Amazon". Null for individuals, ATM, interest and charges.
   Never copy a person's name into the output.
 - **channel:** from the rail, not the merchant. NACH covers ACH and ECS mandates; CARD
