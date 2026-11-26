@@ -62,8 +62,26 @@ When the narration names the lender whose mandate bounced, the merchant is that 
 
 1. An explicit word in the narration wins ("RENT", "EMI", "SALARY", "REFUND").
 2. Otherwise the merchant decides the category.
-3. Otherwise a person's name means Transfer in/out.
-4. Otherwise "Other". Don't guess from the amount.
+3. Otherwise the merchant category code (MCC) decides it, when the narration ends in one (see below).
+4. Otherwise a person's name, or MCC `0000`, means Transfer in/out.
+5. Otherwise "Other". Don't guess from the amount.
+
+## Real narrations often hide the merchant
+
+Seen on a real Federal Bank statement: many UPI lines carry only a payment-app QR handle
+(`q470376850@ybl`) and a 4-digit MCC at the end, with no merchant name at all:
+`UPIOUT/<12-digit ref>/q470376850@ybl/Paid via /5814`.
+
+- Merchant is **null** when the narration doesn't name one. Don't guess a brand.
+- Category comes from the MCC. Common codes: 5812 restaurants and 5814 fast food (Food & dining),
+  5411 grocery (Groceries), 4111/4131 local transport and 4112 rail (Travel & transport),
+  4722 travel agencies (Travel & transport), 4814 telecom (Bills & utilities),
+  5912 pharmacies (Health), 5399 general merchandise (Shopping), 0000 a person (Transfer in/out).
+- A handle that names the merchant still counts as named: `mybmtcdqr@ybl` is "BMTC",
+  `airtelprepaidKerala@mair` is "Airtel".
+
+The synthetic generator must produce these name-less, MCC-coded lines too, or the model will
+never learn to read them.
 
 ## Narration formats to cover
 
@@ -75,6 +93,8 @@ only at the layout and copy no real values) before relying on it.
   `UPI-<NAME>-<vpa>-<IFSC>-<RRN>-<note>`, `UPI/<RRN>/<note>/<vpa>/<Bank name>`
 - NEFT/IMPS: `NEFT-<UTR>-<SENDER NAME>-<note>`, `IMPS/P2A/<RRN>/<name>/<bank>`
 - NACH: `ACH D- <LENDER NAME>-<mandate ref>`, `NACH DR <ref> <lender>`
+- Federal Bank (real layout): `UPIOUT/<ref>/<vpa>/<note>/<MCC>`, `UPI IN/<ref>/<vpa>/<MCC>`,
+  `NFT/<sender>/<UTR>/<bank>`, `TO ATM/<id>/FBL-<location>`
 - Card: `POS <masked card> <MERCHANT> <city>`, `ECOM PUR <merchant>`
 - ATM: `ATW-<masked card>-<terminal>-<city>`, `NWD-...`, `CASH WDL`
 - Bank: `INT.PD:<period>`, `SMS CHGS`, `CHRG: ECS RTN`, `GST @18% ON CHGS`
